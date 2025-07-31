@@ -12,7 +12,10 @@ export const ThemeProvider: React.FC<{ children:ReactNode }> = ({children}) => {
    const [theme, setTheme] = useState<ThemeType>('Theme1');
 
    useEffect(()=>{
-
+     const storedTheme = localStorage.getItem('appTheme') as ThemeType;
+     if(storedTheme){
+        setTheme(storedTheme);
+     }
    },[])
 
    const changetheme = (newTheme: ThemeType) =>{
