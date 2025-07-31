@@ -1,0 +1,22 @@
+.main-content {
+    padding: 80px 20px 20px 20px;
+    transition: all 0.3s ease;
+}
+
+.cards-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ gap:20px;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}

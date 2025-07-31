@@ -1,0 +1,22 @@
+/* Theme 1 - Minimalist */
+.theme1 {
+  background-color: #f0f0f0;
+  color: #000;
+  font-family: 'Arial, sans-serif';
+}
+
+/* Theme 2 - Dark Mode, Sidebar Layout, Serif Fonts */
+
+.theme2 {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Georigia, serif';
+}
+
+/* Theme 3 - Colorful, Card Layout, Playful Font */
+
+.theme3{
+    background-color: #ffe;
+    color: #333;
+    font-family: 'Pacifico, cursive';
+}
